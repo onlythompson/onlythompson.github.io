@@ -9,7 +9,7 @@ const About = () => (
       <img 
         src={pics} 
         alt="Dominic Thompson" 
-        className="rounded-full w-32 h-32 object-cover border-4 border-blue-500"
+        className="rounded-full w-32 h-32 object-cover border-4 border-teal-400"
       />
     </div>
     <h1 className="heading text-4xl mb-4 text-center">Dominic Thompson</h1>

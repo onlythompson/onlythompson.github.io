@@ -9,7 +9,7 @@ const Section = ({ icon: Icon, title, content, isActive, onClick }) => (
       layout
     >
       <div className="flex items-center mb-4">
-        <Icon className="mr-3 text-blue-600" size={28} />
+        <Icon className="mr-3 text-teal-400" size={28} />
         <h2 className="subheading text-xl font-bold">{title}</h2>
       </div>
       {isActive && (
