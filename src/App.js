@@ -5,6 +5,7 @@ import Section from './components/Section';
 import TechnicalSkills from './components/TechnicalSkills';
 import ProfessionalExperience from './components/ProfessionalExperience';
 import KeyProjects from './components/KeyProjects';
+import GitHubProjects from './components/GitHubProjects';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     { icon: Briefcase, title: 'Professional Experience', content: <ProfessionalExperience /> },
     { icon: FileText, title: 'Key Projects', content: <KeyProjects /> },
     // { icon: Award, title: 'Achievements & Certifications', content: <Achievements /> },
+    { icon: Briefcase, title: 'GitHub Projects', content: <GitHubProjects /> },
   ];
 
   return (
